@@ -1,0 +1,37 @@
+[
+    {
+        "title": "The Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+        "year": 1973,
+        "genre": "Progressive Rock"
+    },
+    {
+        "title": "Random Access Memories",
+        "artist": "Daft Punk",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/2/26/Daft_Punk_-_Random_Access_Memories.png",
+        "year": 2013,
+        "genre": "Electronic"
+    },
+    {
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+        "year": 1982,
+        "genre": "Pop"
+    },
+    {
+        "title": "Kind of Blue",
+        "artist": "Miles Davis",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/1/10/Miles_Davis_-_Kind_of_Blue_album_cover.jpg",
+        "year": 1959,
+        "genre": "Jazz"
+    },
+    {
+        "title": "Nevermind",
+        "artist": "Nirvana",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+        "year": 1991,
+        "genre": "Grunge"
+    }
+]

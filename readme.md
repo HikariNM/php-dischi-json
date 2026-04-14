@@ -1,7 +1,7 @@
 Dobbiamo creare una web-app che permetta di leggere una lista di dischi presente nel nostro server.<br>
 I dischi dovranno avere questa struttura: titolo, artista, url della cover, anno di pubblicazione, genere
 ## Consigli
-Nello svolgere l’esercizio seguite un approccio graduale.
+Nello svolgere l’esercizio seguite un approccio graduale.<br>
 Prima assicuratevi che la vostra pagina index.php (riesca a comunicare correttamente con il vostro script PHP)
 Solo a questo punto sarà utile passare alla lettura della lista da un file JSON.
 ## Bonus
