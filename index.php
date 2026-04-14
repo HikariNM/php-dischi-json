@@ -32,9 +32,43 @@ include_once('./server.php');
             </div>
         </div>
     </div>
-    <?php  }?>
-        
-        
+    <?php  }?>        
+</div>
+
+<div class="card bg-dark text-white shadow border-0 p-4 m-5">
+    <h4 class="fw-bold mb-4 text-center">Add Album</h4>
+
+    <form action="./server.php" method="POST">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control bg-secondary text-white border-0" id="title" name="title" placeholder="Es. Dark Side of the Moon" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="artist" class="form-label">Artist</label>
+            <input type="text" class="form-control bg-secondary text-white border-0" id="artist" name="artist" placeholder="Es. Pink Floyd" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="cover" class="form-label">Cover URL</label>
+            <input type="url" class="form-control bg-secondary text-white border-0" id="cover" name="cover" placeholder="https://..." required>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label for="year" class="form-label">Year</label>
+                <input type="number" class="form-control bg-secondary text-white border-0" id="year" name="year" placeholder="Es. 1973" min="1900" max="2025" required>
+            </div>
+            <div class="col-md-6">
+                <label for="genre" class="form-label">Genre</label>
+                <input type="text" class="form-control bg-secondary text-white border-0" id="genre" name="genre" placeholder="Es. Progressive Rock" required>
+            </div>
+        </div>
+
+        <div class="d-grid mt-4">
+            <button type="submit" class="btn btn-primary fw-bold">Add Album</button>
+        </div>
+    </form>
 </div>
     
     
